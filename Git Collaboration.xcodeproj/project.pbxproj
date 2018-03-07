@@ -14,6 +14,7 @@
 		AD482A4B204F96BE00C42689 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD482A49204F96BE00C42689 /* LaunchScreen.storyboard */; };
 		AD482A4E204F96BE00C42689 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AD482A4D204F96BE00C42689 /* main.m */; };
 		AD482A56204F9D0200C42689 /* Color.m in Sources */ = {isa = PBXBuildFile; fileRef = AD482A55204F9D0200C42689 /* Color.m */; };
+		AD482A59204F9EEA00C42689 /* ModelManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AD482A58204F9EEA00C42689 /* ModelManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		AD482A4D204F96BE00C42689 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AD482A54204F9D0200C42689 /* Color.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Color.h; sourceTree = "<group>"; };
 		AD482A55204F9D0200C42689 /* Color.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Color.m; sourceTree = "<group>"; };
+		AD482A57204F9EEA00C42689 /* ModelManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModelManager.h; sourceTree = "<group>"; };
+		AD482A58204F9EEA00C42689 /* ModelManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModelManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +68,8 @@
 				AD482A3F204F96BE00C42689 /* AppDelegate.m */,
 				AD482A41204F96BE00C42689 /* ViewController.h */,
 				AD482A42204F96BE00C42689 /* ViewController.m */,
+				AD482A57204F9EEA00C42689 /* ModelManager.h */,
+				AD482A58204F9EEA00C42689 /* ModelManager.m */,
 				AD482A54204F9D0200C42689 /* Color.h */,
 				AD482A55204F9D0200C42689 /* Color.m */,
 				AD482A44204F96BE00C42689 /* Main.storyboard */,
@@ -150,6 +155,7 @@
 				AD482A43204F96BE00C42689 /* ViewController.m in Sources */,
 				AD482A56204F9D0200C42689 /* Color.m in Sources */,
 				AD482A4E204F96BE00C42689 /* main.m in Sources */,
+				AD482A59204F9EEA00C42689 /* ModelManager.m in Sources */,
 				AD482A40204F96BE00C42689 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
