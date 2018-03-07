@@ -13,6 +13,7 @@
 		AD482A48204F96BE00C42689 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD482A47204F96BE00C42689 /* Assets.xcassets */; };
 		AD482A4B204F96BE00C42689 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD482A49204F96BE00C42689 /* LaunchScreen.storyboard */; };
 		AD482A4E204F96BE00C42689 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AD482A4D204F96BE00C42689 /* main.m */; };
+		AD482A56204F9D0200C42689 /* Color.m in Sources */ = {isa = PBXBuildFile; fileRef = AD482A55204F9D0200C42689 /* Color.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		AD482A4A204F96BE00C42689 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AD482A4C204F96BE00C42689 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AD482A4D204F96BE00C42689 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AD482A54204F9D0200C42689 /* Color.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Color.h; sourceTree = "<group>"; };
+		AD482A55204F9D0200C42689 /* Color.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Color.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				AD482A3F204F96BE00C42689 /* AppDelegate.m */,
 				AD482A41204F96BE00C42689 /* ViewController.h */,
 				AD482A42204F96BE00C42689 /* ViewController.m */,
+				AD482A54204F9D0200C42689 /* Color.h */,
+				AD482A55204F9D0200C42689 /* Color.m */,
 				AD482A44204F96BE00C42689 /* Main.storyboard */,
 				AD482A47204F96BE00C42689 /* Assets.xcassets */,
 				AD482A49204F96BE00C42689 /* LaunchScreen.storyboard */,
@@ -143,6 +148,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AD482A43204F96BE00C42689 /* ViewController.m in Sources */,
+				AD482A56204F9D0200C42689 /* Color.m in Sources */,
 				AD482A4E204F96BE00C42689 /* main.m in Sources */,
 				AD482A40204F96BE00C42689 /* AppDelegate.m in Sources */,
 			);
