@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		893716CF204FACBC00A6DC6F /* MyTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 893716CE204FACBC00A6DC6F /* MyTableViewController.m */; };
 		AD482A40204F96BE00C42689 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AD482A3F204F96BE00C42689 /* AppDelegate.m */; };
 		AD482A43204F96BE00C42689 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD482A42204F96BE00C42689 /* ViewController.m */; };
 		AD482A46204F96BE00C42689 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD482A44204F96BE00C42689 /* Main.storyboard */; };
@@ -18,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		893716CD204FACBC00A6DC6F /* MyTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyTableViewController.h; sourceTree = "<group>"; };
+		893716CE204FACBC00A6DC6F /* MyTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyTableViewController.m; sourceTree = "<group>"; };
 		AD482A3B204F96BE00C42689 /* Git Collaboration.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Git Collaboration.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD482A3E204F96BE00C42689 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		AD482A3F204F96BE00C42689 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -77,6 +80,8 @@
 				AD482A49204F96BE00C42689 /* LaunchScreen.storyboard */,
 				AD482A4C204F96BE00C42689 /* Info.plist */,
 				AD482A4D204F96BE00C42689 /* main.m */,
+				893716CD204FACBC00A6DC6F /* MyTableViewController.h */,
+				893716CE204FACBC00A6DC6F /* MyTableViewController.m */,
 			);
 			path = "Git Collaboration";
 			sourceTree = "<group>";
@@ -112,6 +117,7 @@
 				TargetAttributes = {
 					AD482A3A204F96BE00C42689 = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -155,6 +161,7 @@
 				AD482A43204F96BE00C42689 /* ViewController.m in Sources */,
 				AD482A56204F9D0200C42689 /* Color.m in Sources */,
 				AD482A4E204F96BE00C42689 /* main.m in Sources */,
+				893716CF204FACBC00A6DC6F /* MyTableViewController.m in Sources */,
 				AD482A59204F9EEA00C42689 /* ModelManager.m in Sources */,
 				AD482A40204F96BE00C42689 /* AppDelegate.m in Sources */,
 			);
@@ -230,7 +237,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -279,7 +286,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -290,12 +297,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KRV5282U3Y;
 				INFOPLIST_FILE = "Git Collaboration/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.tysonparks.Git-Collaboration";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -304,12 +314,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KRV5282U3Y;
 				INFOPLIST_FILE = "Git Collaboration/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.tysonparks.Git-Collaboration";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
